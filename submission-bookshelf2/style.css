@@ -1,0 +1,76 @@
+header {
+    background-color: #003F5C;
+    color: #fff;
+    padding: 5vh;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E89B25;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #FFECCC;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card button {
+    margin-top: 0px;
+}
+
+.form-container {
+    background-color: #FFECCC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px; /* Tambahkan margin kanan untuk meletakkan di sebelah kiri */
+    float: left; /* Menggunakan float untuk menempatkan di sebelah kiri */
+}
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #8C7357;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003F5C;
+}
